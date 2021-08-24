@@ -6,6 +6,7 @@ if [ `expr $HOUR % 4` -ne 0 ]; then
     exit 0
 fi
 
+
 # This task run two shell scripts responsible for revision check
 # - populatedocs.sh - checking out SVN docs repository into local filesystem
 # - generation.sh - generating revision check database and charts
