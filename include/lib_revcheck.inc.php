@@ -279,3 +279,4 @@ function gen_date($file)
     return '<time class="gen-date" datetime="'.date(DATE_W3C, $unix).'">Generated: '.date('d M Y H:i:s', $unix).'</time>';
 }
 
+
