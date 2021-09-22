@@ -20,4 +20,3 @@ cd ${SCRIPTSDIR}
 ./generation.sh
 
 
-
